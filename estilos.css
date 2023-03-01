@@ -21,8 +21,10 @@
 }
 
   .header_footer {
+    position: absolute;
     background-color: lightgray;
     display: flex;
+    text-align: center;
     align-items: center;
     height: 100px;
     width: 100%;
@@ -32,8 +34,8 @@
   }
 
   #titulo_cv {
-    margin: auto;
-    font-size: xx-large;
+    left: 25%;
+    font-size: 50px;
     }
 
   #titulo_cv:hover {
@@ -41,12 +43,13 @@
     }  
 
   #lado_izquierdo {
+      position: absolute;
       background-color: lightgray;
       border-right: 3px solid black;
       padding-left: 40px;
       height: 769px;
       width: 215px;
-      float: left;
+      top: 100px;
     }
 
     #nav{
@@ -64,12 +67,13 @@
     }
 
     #lado_derecho {
+      position: absolute;
       background-color: lightgray;
       border-left: 3px solid black;
-      padding: 0px;
+      left: 88.78%;
+      top: 100px;
       height: 769px;
       width: 215px;
-      float: right;
     }
 
       .redes{
@@ -78,18 +82,18 @@
 
     #centro {
       background-color: aliceblue;
-      position: fixed;
-      padding: 20px;
+      position: absolute;
       display: flex;
+      padding: 20px;
       text-align: center;
-      margin-left: 215px;
-      margin-right: 215px;
-      height: 100%;
-      width: 77.6%
+      top: 100px;
+      left: 215px;
+      width: 77.6%;
+      height: 769px;
       }
 
       #inicio p{
-        font-size: large;
+        font-size: 25px;
       }
 
       #inicio{
@@ -97,8 +101,7 @@
       }
 
       #foto{
-        margin-top: -1000px;
-        margin-bottom: 50px;
+        margin-bottom: 40px;
       }
 
     .pag {
@@ -108,29 +111,31 @@
       #pag_1 h2{
         font-size: xx-large;
         margin-left: 600px;
-        margin-top: 3%;
+        margin-top: 25px;
       }
       
       #pag_1 p{
-        font-size: x-large;
+        font-size: xx-large;
         margin-left: 600px;
-        margin-top: 2%;
+        margin-top: 10px;
       }
 
-      #pag_2 h1{
-        margin-left: 100px;
-        margin-top: 6%;
+      #pag_2 h2{
+        left: 80px;
+        font-size: 40px;
+        margin-top: 50px;
       }
     
       #pag_2 p {
-        font-size: x-large;
-        margin-left: 100px;
-        margin-top: 5%;
+        left: 80px;
+        font-size: 30px;
+        margin-top: 60px;
       }
 
-      #pag_3 h1{
+      #pag_3 h2 {
+        font-size: xx-large;
         margin-left: 100%;
-        margin-top: 40% ;
+        margin-top: 150px;
       }
 
       #pag_3 span{
@@ -139,6 +144,7 @@
       }
 
   #footer {
+    top: 869px;
     border-top: 3px solid black;
   }
 
