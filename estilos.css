@@ -1,0 +1,147 @@
+*{
+  font-family:'Roboto', sans-serif;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#main{ 
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+#foto_cv {
+  margin-left: 50px;
+}
+
+#foto_cv:hover {
+  cursor: pointer;
+}
+
+  .header_footer {
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+  }
+  #header{
+  border-bottom: 3px solid black;
+  }
+
+  #titulo_cv {
+    margin: auto;
+    font-size: xx-large;
+    }
+
+  #titulo_cv:hover {
+    cursor: pointer;
+    }  
+
+  #lado_izquierdo {
+      background-color: lightgray;
+      border-right: 3px solid black;
+      padding-left: 40px;
+      height: 769px;
+      width: 215px;
+      float: left;
+    }
+
+    #nav{
+      margin-left: 20x;
+    }
+
+    #nav h2{
+      margin-top: 150px;
+      cursor: pointer;
+    }
+
+    #nav h2:hover{
+      text-decoration: underline;
+      color: blue;
+    }
+
+    #lado_derecho {
+      background-color: lightgray;
+      border-left: 3px solid black;
+      padding: 0px;
+      height: 769px;
+      width: 215px;
+      float: right;
+    }
+
+      .redes{
+        margin-top: 30px;
+      }
+
+    #centro {
+      background-color: aliceblue;
+      position: fixed;
+      padding: 20px;
+      display: flex;
+      text-align: center;
+      margin-left: 215px;
+      margin-right: 215px;
+      height: 100%;
+      width: 77.6%
+      }
+
+      #inicio p{
+        font-size: large;
+      }
+
+      #inicio{
+        margin: auto;
+      }
+
+      #foto{
+        margin-top: -1000px;
+        margin-bottom: 50px;
+      }
+
+    .pag {
+      display: none;
+    }
+
+      #pag_1 h2{
+        font-size: xx-large;
+        margin-left: 600px;
+        margin-top: 3%;
+      }
+      
+      #pag_1 p{
+        font-size: x-large;
+        margin-left: 600px;
+        margin-top: 2%;
+      }
+
+      #pag_2 h1{
+        margin-left: 100px;
+        margin-top: 6%;
+      }
+    
+      #pag_2 p {
+        font-size: x-large;
+        margin-left: 100px;
+        margin-top: 5%;
+      }
+
+      #pag_3 h1{
+        margin-left: 100%;
+        margin-top: 40% ;
+      }
+
+      #pag_3 span{
+        font-size: xx-large;
+        margin-left: 150%;
+      }
+
+  #footer {
+    border-top: 3px solid black;
+  }
+
+  #footer p{
+    margin: auto;
+  }
